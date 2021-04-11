@@ -41,6 +41,11 @@ export default function Header() {
               <h3>My Files</h3>
             </Button>
           </Link>
+          <Link to='/login' className={classes.rmd}>
+            <Button className={classes.bl} color='inherit'>
+              <h3>Login</h3>
+            </Button>
+          </Link>
         </Toolbar>
       </AppBar>
     </div>

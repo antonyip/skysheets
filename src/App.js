@@ -5,6 +5,7 @@ import Header from './components/Header';
 
 import Sheets from 'views/Sheets'
 import View from 'views/View';
+import Login from 'views/Login'
 
 import 'easymde/dist/easymde.min.css';
 import './App.css';
@@ -35,6 +36,7 @@ function App() {
         <Container className={classes.ch}>
           <Switch>
             <Route exact path='/' component={Sheets} />
+            <Route exact path='/login' component={Login} />
             <Route exact path='/view' component={View} />
           </Switch>
         </Container>
